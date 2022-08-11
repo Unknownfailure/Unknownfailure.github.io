@@ -91,7 +91,7 @@ function increaseFirepowerBar() {
 function toggleTest1() {
     var x = document.getElementById("SoundTestBox1");
     console.log(x.style.display);
-    if (x.style.display == "none" || x.style.display == " ") {
+    if (x.style.display == "none") {
       x.style.display = "block";
       setTimeout(ding1,2000);
     } else {
@@ -102,7 +102,8 @@ function toggleTest1() {
 function toggleTest2() {
     var x = document.getElementById("SoundTestBox2");
     if (x.style.display == "none") {
-     setTimeout(ding1, x.style.display = "block",3200);
+     x.style.display = "block";
+     setTimeout(ding1,3200);
     } else {
       x.style.display = "none";
     }

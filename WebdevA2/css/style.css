@@ -193,7 +193,6 @@ body{
 #firstjet, #latestjet, #addinfo{
   flex-basis: 32%;
   padding:2em;
-
   border:3px solid gray;
   border-radius: 15%;
 }
@@ -276,7 +275,8 @@ padding-left: 2em;
   }
 
   #firstjet, #latestjet{
-    flex-basis: 45%;
+    flex-basis: 47%;
+    padding: 1em;
     border-radius: 10%;
   }
 
@@ -284,8 +284,13 @@ padding-left: 2em;
     margin-right:1em;
   }
 
+  #latestjet{
+    margin-left: 1em;
+    margin-right: 0;
+  }
+
   #addinfo{
-    flex-basis: 100%;
+    flex-basis: 98.7%;
     margin-top: 1em;
     border-radius: 10%;
   }
