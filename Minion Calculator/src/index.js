@@ -36,7 +36,7 @@ function CreateStatCell(row, index)
 
 function test()
 {
-  fetch("./Skyblock Minions.json")
+  fetch("Minions.json")
   .then(res => res.json())
   .then(data => console.log(data))
 }
