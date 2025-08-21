@@ -16,6 +16,7 @@ function DeleteInputTableRow()
 function InputTableCreateRow(row)
 {
   var rowIndex = row.rowIndex - 2;
+  console.log("input: " + rowIndex);
   CreateMinionSelectCell(row, rowIndex, 0);
   CreateTierNumberCell(row, rowIndex, 1);
   CreateCountNumberCell(row, rowIndex, 2);

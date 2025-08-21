@@ -15,6 +15,7 @@ function DeleteStatsTableRow()
 function StatsTableCreateRow(row)
 {
     var rowIndex = row.rowIndex - 2;
+      console.log("stats: " + rowIndex);
     CreateMinionTextCell(row, rowIndex, 0);
     CreateSpeedTextCell(row, rowIndex, 1);
     CreateAPMTextCell(row, rowIndex, 2);
