@@ -34,6 +34,12 @@ function CreateStatCell(row, index)
   return cell;
 }
 
+function test()
+{
+  //test function for commits
+  
+}
+
 function UpdateSelectedMinionStats(RowIndex)
 {
   document.getElementById("MinionTextCell" + RowIndex).innerHTML = GetMinionNameTier(document.getElementById("MinionSelectCell" + RowIndex).value,
