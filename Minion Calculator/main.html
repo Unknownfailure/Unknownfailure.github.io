@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <main>
+        <h1>Minion Calculator</h1>  
+
+        <button onclick="TableCreateRow()">Create row</button>
+        <button onclick="TableDeleteRow()">Delete row</button>
+        <table id="minionInputTable" class="GeneratedTable">
+        <thead>
+          <tr>
+            <th colspan="6">Input Minions</th>
+          </tr>
+          <tr>
+              <th>Minion</th>
+              <th>Tier</th>
+              <th>Count</th>
+              <th>Fuel</th>
+              <th>Upgrade 1</th>
+              <th>Upgrade 2</th>
+          </tr>
+        </thead>
+        <tr>
+        </tr>
+        </table>
+        <table id="minionStatsTable">
+          <tr>
+            <th colspan="6">Minions Stats</th>
+          </tr>
+          <tr>
+              <th>Minion</th>
+              <th>Speed</th>
+              <th>Actions / minute</th>
+              <th>Generated Items</th>
+              <th>Items / hour</th>
+          </tr>
+        </table>
+    <input type="file" id="fileInput" accept=".json">
+    </main>
+    <script src="src/InputTable.js"></script>
+    <script src="src/StatsTable.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+

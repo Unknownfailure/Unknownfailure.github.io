@@ -1,0 +1,761 @@
+{
+  "Minions": [
+    {
+      "Name": "No Minion",
+      "Type": "",
+      "Minion_Speed": [],
+      "Generated_Item": []
+    },
+    {
+      "Name": "Cobblestone Minion",
+      "Type": "Mining",
+      "Minion_Speed": [14, 14, 12, 12, 10, 10, 9, 9, 8, 8, 7, 6],
+      "Generated_Item": [
+        {"Name": "Cobblestone", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Obsidian Minion",
+      "Type": "Mining",
+      "Minion_Speed": [45, 45, 42, 42, 39, 39, 35, 35, 30, 30, 24, 21],
+      "Generated_Item": [
+        {"Name": "Obsidian", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Glowstone Minion",
+      "Type": "Mining",
+      "Minion_Speed": [25, 25, 23, 23, 21, 21, 19, 19, 16, 16, 13, 11],
+      "Generated_Item": [
+        {"Name": "Glowstone Dust", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Gravel Minion",
+      "Type": "Mining",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 19, 19, 16, 16, 13, "NULL"],
+      "Generated_Item": [
+        {"Name": "Gravel", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Sand Minion",
+      "Type": "Mining",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 19, 19, 16, 16, 13, "NULL"],
+      "Generated_Item": [ {"Name": "Sand", "Drop_Amount": 1, "Drop_Chance": 1} ]
+    },
+    {
+      "Name": "Ice Minion",
+      "Type": "Mining",
+      "Minion_Speed": [14, 14, 12, 12, 10, 10, 9, 9, 8, 8, 7, 6],
+      "Generated_Item": [ {"Name": "Ice", "Drop_Amount": 1, "Drop_Chance": 1} ]
+    },
+    {
+      "Name": "Coal Minion",
+      "Type": "Mining",
+      "Minion_Speed": [15, 15, 13, 13, 12, 12, 10, 10, 9, 9, 7, 6],
+      "Generated_Item": [ {"Name": "Coal", "Drop_Amount": 1, "Drop_Chance": 1} ]
+    },
+    {
+      "Name": "Iron Minion",
+      "Type": "Mining",
+      "Minion_Speed": [17, 17, 15, 15, 14, 14, 12, 12, 10, 10, 8],
+      "Generated_Item": [
+        {"Name": "Iron Ore", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Gold Minion",
+      "Type": "Mining",
+      "Minion_Speed": [22, 22, 20, 20, 18, 18, 16, 16, 14, 14, 11, 9],
+      "Generated_Item": [
+        {"Name": "Gold Ore", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Diamond Minion",
+      "Type": "Mining",
+      "Minion_Speed": [29, 29, 27, 27, 25, 25, 22, 22, 19, 19, 15, 12],
+      "Generated_Item": [
+        {"Name": "Diamond", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Lapis Minion",
+      "Type": "Mining",
+      "Minion_Speed": [29, 29, 27, 27, 25, 25, 23, 23, 21, 21, 18, 16],
+      "Generated_Item": [
+        {"Name": "Lapis Lazuli", "Drop_Amount": 4.5, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Redstone Minion",
+      "Type": "Mining",
+      "Minion_Speed": [29, 29, 27, 27, 25, 25, 23, 23, 21, 21, 18, 16],
+      "Generated_Item": [
+        {"Name": "Redstone", "Drop_Amount": 4.5, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Emerald Minion",
+      "Type": "Mining",
+      "Minion_Speed": [28, 28, 26, 26, 24, 24, 21, 21, 18, 18, 14, 12],
+      "Generated_Item": [
+        {"Name": "Emerald", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Quartz Minion",
+      "Type": "Mining",
+      "Minion_Speed": [
+        22.5, 22.5, 21,   21,   19,   19,   17,   17,   14.5, 14.5, 11.5, 10
+      ],
+      "Generated_Item": [
+        {"Name": "Nether Quartz", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "End Stone Minion",
+      "Type": "Mining",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 19, 19, 16, 16, 13, "NULL"],
+      "Generated_Item": [
+        {"Name": "End Stone", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Mithril Minion",
+      "Type": "Mining",
+      "Minion_Speed": [80, 80, 75, 75, 70, 70, 65, 65, 60, 60, 55, 50],
+      "Generated_Item": [
+        {"Name": "Mithril", "Drop_Amount": 2, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Hard Stone Minion",
+      "Type": "Mining",
+      "Minion_Speed": [14, 14, 12, 12, 10, 10, 9, 9, 8, 8, 7, 6],
+      "Generated_Item": [
+        {"Name": "Hard Stone", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Snow Minion",
+      "Type": "Mining",
+      "Minion_Speed": [13, 13, 12, 12, 11, 11, 9.5, 9.5, 8, 8, 6.5, 5.8],
+      "Generated_Item": [
+        {"Name": "Snowball", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Red Sand Minion",
+      "Type": "Mining",
+      "Minion_Speed": [26, 25, 24, 23, 22, 21, 20, 19, 18, 16, 13, 11],
+      "Generated_Item": [
+        {"Name": "Red Sand", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Mycelium Minion",
+      "Type": "Mining",
+      "Minion_Speed": [26, 25, 24, 23, 22, 21, 20, 19, 18, 16, 13, 11],
+      "Generated_Item": [
+        {"Name": "Mycelium", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Oak Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [48, 48, 45, 45, 42, 42, 38, 38, 33, 33, 27, "NULL"],
+      "Generated_Item": [
+        {"Name": "Oak Log", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Birch Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [48, 48, 45, 45, 42, 42, 38, 38, 33, 33, 27, "NULL"],
+      "Generated_Item": [
+        {"Name": "Birch Log", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Spruce Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [48, 48, 45, 45, 42, 42, 38, 38, 33, 33, 27, "NULL"],
+      "Generated_Item": [
+        {"Name": "Spruce Log", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Jungle Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [48, 48, 45, 45, 42, 42, 38, 38, 33, 33, 27, "NULL"],
+      "Generated_Item": [
+        {"Name": "Jungle Log", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Dark Oak Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [48, 48, 45, 45, 42, 42, 38, 38, 33, 33, 27, "NULL"],
+      "Generated_Item": [
+        {"Name": "Dark Oak Log", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Acacia Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [48, 48, 45, 45, 42, 42, 38, 38, 33, 33, 27, "NULL"],
+      "Generated_Item": [
+        {"Name": "Acacia Log", "Drop_Amount": 4, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Flower Minion",
+      "Type": "Foraging",
+      "Minion_Speed": [30, 29, 28, 27, 26, 25, 24, 23, 22, 20, 18, 15],
+      "Generated_Item": [
+        {"Name": "Poppy",        "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Blue Orchid",  "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Allium",       "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Azure Bluet",  "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Red Tulip",    "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Orange Tulip", "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "White Tulip",  "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Pink Tulip",   "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Oxeye Daisy",  "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Dandelion",    "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Sunflower",    "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Lilac",        "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Rose Bush",    "Drop_Amount": 1, "Drop_Chance": 0.07},
+        {"Name": "Peony",        "Drop_Amount": 1, "Drop_Chance": 0.07}
+      ]
+    },
+    {
+      "Name": "Fishing Minion",
+      "Type": "Fishing",
+      "Minion_Speed": [75, 75, 67, 67, 59, 59, 51, 51, 43, 43, 35, 30],
+      "Generated_Item": [
+        {"Name": "Raw Fish",           "Drop_Amount": 1, "Drop_Chance": 0.5 },
+        {"Name": "Raw Salmon",         "Drop_Amount": 1, "Drop_Chance": 0.25},
+        {"Name": "Pufferfish",         "Drop_Amount": 1, "Drop_Chance": 0.12},
+        {"Name": "Clownfish",          "Drop_Amount": 1, "Drop_Chance": 0.04},
+        {"Name": "Prismarine Crytals", "Drop_Amount": 1, "Drop_Chance": 0.03},
+        {"Name": "Prismarine Shard",   "Drop_Amount": 1, "Drop_Chance": 0.03},
+        {"Name": "Sponge",             "Drop_Amount": 1, "Drop_Chance": 0.03}
+      ]
+    },
+    {
+      "Name": "Clay Minion",
+      "Type": "Fishing",
+      "Minion_Speed": [32, 32, 30, 30, 27.5, 27.5, 24, 24, 20, 20, 16, 14],
+      "Generated_Item": [ {"Name": "Clay", "Drop_Amount": 4, "Drop_Chance": 1} ]
+    },
+    {
+      "Name": "Wheat Minion",
+      "Type": "Farming",
+      "Minion_Speed": [15, 15, 13, 13, 11, 11, 10, 10, 9, 9, 8, 7],
+      "Generated_Item": [
+        {"Name": "Wheat", "Drop_Amount": 1, "Drop_Chance": 1},
+        {"Name": "Seeds", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Melon Minion",
+      "Type": "Farming",
+      "Minion_Speed": [24, 24, 22.5, 22.5, 21, 21, 18.5, 18.5, 16, 16, 13, 10],
+      "Generated_Item": [
+        {"Name": "Melon", "Drop_Amount": 5, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Pumpkin Minion",
+      "Type": "Farming",
+      "Minion_Speed": [32, 32, 30, 30, 27, 27, 24, 24, 20, 20, 16, 12],
+      "Generated_Item": [
+        {"Name": "Pumpkin", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Carrot Minion",
+      "Type": "Farming",
+      "Minion_Speed": [20, 20, 18, 18, 16, 16, 14, 14, 12, 12, 10, 8],
+      "Generated_Item": [
+        {"Name": "Carrot", "Drop_Amount": 3, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Potato Minion",
+      "Type": "Farming",
+      "Minion_Speed": [20, 20, 18, 18, 16, 16, 14, 14, 12, 12, 10, 8],
+      "Generated_Item": [
+        {"Name": "Potato", "Drop_Amount": 3, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Mushroom Minion",
+      "Type": "Farming",
+      "Minion_Speed": [30, 30, 28, 28, 26, 26, 23, 23, 20, 20, 16, 12],
+      "Generated_Item": [
+        {"Name": "Red Mushroom",   "Drop_Amount": 1, "Drop_Chance": 0.5},
+        {"Name": "Brown Mushroom", "Drop_Amount": 1, "Drop_Chance": 0.5}
+      ]
+    },
+    {
+      "Name": "Cactus Minion",
+      "Type": "Farming",
+      "Minion_Speed": [27, 27, 25, 25, 23, 23, 21, 21, 18, 18, 15, 12],
+      "Generated_Item": [
+        {"Name": "Cactus", "Drop_Amount": 3, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Cocoa Bean Minion",
+      "Type": "Farming",
+      "Minion_Speed": [27, 27, 25, 25, 23, 23, 21, 21, 18, 18, 15, 12],
+      "Generated_Item": [
+        {"Name": "Cocoa Beans", "Drop_Amount": 3, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Sugar Cane Minion",
+      "Type": "Farming",
+      "Minion_Speed": [22, 22, 20, 20, 18, 18, 16, 16, 14.5, 14.5, 12, 9],
+      "Generated_Item": [
+        {"Name": "Sugar Cane", "Drop_Amount": 3, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Nether Wart Minion",
+      "Type": "Farming",
+      "Minion_Speed": [50, 50, 47, 47, 44, 44, 41, 41, 38, 38, 32, 27],
+      "Generated_Item": [
+        {"Name": "Nether Wart", "Drop_Amount": 3, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Cow Minion",
+      "Type": "Farming",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, 10],
+      "Generated_Item": [
+        {"Name": "Raw Beef", "Drop_Amount": 1, "Drop_Chance": 1},
+        {"Name": "Leather",  "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Pig Minion",
+      "Type": "Farming",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, 10],
+      "Generated_Item": [
+        {"Name": "Raw Porkchop", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Chicken Minion",
+      "Type": "Farming",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 18, 18, 15, 12],
+      "Generated_Item": [
+        {"Name": "Raw Chicken", "Drop_Amount": 1, "Drop_Chance": 1},
+        {"Name": "Feather",     "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Sheep Minion",
+      "Type": "Farming",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 18, 18, 15, 12],
+      "Generated_Item": [
+        {"Name": "Mutton", "Drop_Amount": 1, "Drop_Chance": 1},
+        {"Name": "Wool",   "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Rabbit Minion",
+      "Type": "Farming",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, 10],
+      "Generated_Item": [
+        {"Name": "Raw Rabbit",    "Drop_Amount": 1, "Drop_Chance": 1  },
+        {"Name": "Rabbit Hide",   "Drop_Amount": 1, "Drop_Chance": 0.7},
+        {"Name": "Rabbit's Foot", "Drop_Amount": 1, "Drop_Chance": 0.7}
+      ]
+    },
+    {
+      "Name": "Zombie Minion",
+      "Type": "Combat",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, "NULL"],
+      "Generated_Item": [
+        {"Name": "Rotten Flesh",     "Drop_Amount": 1, "Drop_Chance": 1   },
+        {"Name": "Carrot",           "Drop_Amount": 1, "Drop_Chance": 0.01},
+        {"Name": "Potato",           "Drop_Amount": 1, "Drop_Chance": 0.01},
+        {"Name": "Poisonous Potato", "Drop_Amount": 1, "Drop_Chance": 0.02}
+      ]
+    },
+    {
+      "Name": "Revenant Minion",
+      "Type": "Combat",
+      "Minion_Speed": [29, 29, 26, 26, 23, 23, 19, 19, 14.5, 14.5, 10, 8],
+      "Generated_Item": [
+        {"Name": "Rotten Flesh", "Drop_Amount": 3.5, "Drop_Chance": 1  },
+        {"Name": "Diamond",      "Drop_Amount": 1,   "Drop_Chance": 0.2}
+      ]
+    },
+    {
+      "Name": "Voidling Minion",
+      "Type": "Combat",
+      "Minion_Speed": [45, 45, 42, 42, 39, 39, 35, 35, 30, 30, 24, "NULL"],
+      "Generated_Item": [
+        {"Name": "Obsidian", "Drop_Amount": 2.5, "Drop_Chance": 1},
+        {"Name": "Nether Quartz", "Drop_Amount": 1, "Drop_Chance": 0.4},
+        {
+          "Name": "Enchanted Ender Pearl",
+          "Drop_Amount": 1,
+          "Drop_Chance": 0.000625
+        }
+      ]
+    },
+    {
+      "Name": "Inferno Minion",
+      "Type": "Combat",
+      "Minion_Speed": [
+        1013, 982, 950, 919, 886, 855, 823, 792, 760, 728, 697, "NULL"
+      ],
+      "Generated_Item": [
+        {"Name": "Crude Gabagool", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Vampire Minion",
+      "Type": "Combat",
+      "Minion_Speed": [
+        190, 190, 175, 175, 160, 160, 140, 140, 117, 117, 95, "NULL"
+      ],
+      "Generated_Item": [
+        {"Name": "Hemovibe", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Skeleton Minion",
+      "Type": "Combat",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, "NULL"],
+      "Generated_Item": [ {"Name": "Bone", "Drop_Amount": 1, "Drop_Chance": 1} ]
+    },
+    {
+      "Name": "Creeper Minion",
+      "Type": "Combat",
+      "Minion_Speed": [27, 27, 25, 25, 23, 23, 21, 21, 18, 18, 14, "NULL"],
+      "Generated_Item": [
+        {"Name": "Gunpowder", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Spider Minion",
+      "Type": "Combat",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, "NULL"],
+      "Generated_Item": [
+        {"Name": "String",     "Drop_Amount": 1, "Drop_Chance": 1  },
+        {"Name": "Spider Eye", "Drop_Amount": 1, "Drop_Chance": 0.5}
+      ]
+    },
+    {
+      "Name": "Tarantula Minion",
+      "Type": "Combat",
+      "Minion_Speed": [29, 29, 26, 26, 23, 23, 19, 19, 14.5, 14.5, 10, 8],
+      "Generated_Item": [
+        {"Name": "String",     "Drop_Amount": 3.5, "Drop_Chance": 1  },
+        {"Name": "Spider Eye", "Drop_Amount": 1,   "Drop_Chance": 1  },
+        {"Name": "Iron Ingot", "Drop_Amount": 1,   "Drop_Chance": 0.2}
+      ]
+    },
+    {
+      "Name": "Cave Spider Minion",
+      "Type": "Combat",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 20, 20, 17, 17, 13, "NULL"],
+      "Generated_Item": [
+        {"Name": "String",     "Drop_Amount": 1, "Drop_Chance": 0.5},
+        {"Name": "Spider Eye", "Drop_Amount": 1, "Drop_Chance": 1  }
+      ]
+    },
+    {
+      "Name": "Blaze Minion",
+      "Type": "Combat",
+      "Minion_Speed": [33, 33, 31, 31, 28.5, 28.5, 25, 25, 21, 21, 16.5, 15],
+      "Generated_Item": [
+        {"Name": "Blaze Rod", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Magma Cube Minion",
+      "Type": "Combat",
+      "Minion_Speed": [32, 32, 30, 30, 28, 28, 25, 25, 22, 22, 18, 16],
+      "Generated_Item": [
+        {"Name": "Magma Cream", "Drop_Amount": 2, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Enderman Minion",
+      "Type": "Combat",
+      "Minion_Speed": [32, 32, 30, 30, 28, 28, 25, 25, 22, 22, 18, "NULL"],
+      "Generated_Item": [
+        {"Name": "Ender Pearl", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Ghast Minion",
+      "Type": "Combat",
+      "Minion_Speed": [50, 50, 47, 47, 44, 44, 41, 41, 38, 38, 32, 30],
+      "Generated_Item": [
+        {"Name": "Ghast Tear", "Drop_Amount": 1, "Drop_Chance": 1}
+      ]
+    },
+    {
+      "Name": "Slime Minion",
+      "Type": "Combat",
+      "Minion_Speed": [26, 26, 24, 24, 22, 22, 19, 19, 16, 16, 12, "NULL"],
+      "Generated_Item": [
+        {"Name": "Slimeball", "Drop_Amount": 1.8, "Drop_Chance": 1}
+      ]
+    }
+  ],
+  "Fuels": [
+    {
+      "Name": "No Fuel",
+      "Fuel_Effects": 0,
+      "Expiry_Time": 0,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Coal",
+      "Fuel_Effects": 0.05,
+      "Expiry_Time": 0.5,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Charcoal",
+      "Fuel_Effects": 0.05,
+      "Expiry_Time": 0.5,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Block of Coal",
+      "Fuel_Effects": 0.05,
+      "Expiry_Time": 5,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Enchanted Bread",
+      "Fuel_Effects": 0.05,
+      "Expiry_Time": 12,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Enchanted Coal",
+      "Fuel_Effects": 0.1,
+      "Expiry_Time": 24,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Enchanted Charcoal",
+      "Fuel_Effects": 0.2,
+      "Expiry_Time": 36,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Solar Panel",
+      "Fuel_Effects": 0.25,
+      "Expiry_Time": 999999999,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Enchanted Lava Bucket",
+      "Fuel_Effects": 0.25,
+      "Expiry_Time": 999999999,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Magma Bucket",
+      "Fuel_Effects": 0.3,
+      "Expiry_Time": 999999999,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Plasma Bucket",
+      "Fuel_Effects": 0.35,
+      "Expiry_Time": 999999999,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Everburning Flame",
+      "Fuel_Effects": 0.35,
+      "Expiry_Time": 999999999,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Hamster Wheel",
+      "Fuel_Effects": 0.5,
+      "Expiry_Time": 24,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Foul Flesh",
+      "Fuel_Effects": 0.9,
+      "Expiry_Time": 5,
+      "Output_Multiplier": 1
+    },
+    {
+      "Name": "Tasty Cheese",
+      "Fuel_Effects": 0,
+      "Expiry_Time": 1,
+      "Output_Multiplier": 2
+    },
+    {
+      "Name": "Catalyst",
+      "Fuel_Effects": 0,
+      "Expiry_Time": 3,
+      "Output_Multiplier": 3
+    },
+    {
+      "Name": "Hyper Catalyst",
+      "Fuel_Effects": 0,
+      "Expiry_Time": 6,
+      "Output_Multiplier": 4
+    },
+    {
+      "Name": "Inferno Minion Fuel",
+      "Fuel_Effects": 0,
+      "Expiry_Time": 24,
+      "Output_Multiplier": 10
+    }
+  ],
+  "Upgrades": [
+    {
+      "Name": "No Upgrade",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Auto Smelter",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Compactor",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Super Compactor 3000",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Dwarven Super Compactor",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Diamond Spreading",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Diamond", "Drop_Amount": 1, "Drop_Chance": 0.1}
+      ],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Potato Spreading",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Potato", "Drop_Amount": 1, "Drop_Chance": 0.05}
+      ],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Minion Expander",
+      "Upgrade_Effects": 0.05,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Enchanted Egg",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Egg", "Drop_Amount": 1, "Drop_Chance": 1}
+      ],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Flint Shovel",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Flint", "Drop_Amount": 1, "Drop_Chance": 1}
+      ],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Flycatcher",
+      "Upgrade_Effects": 0.2,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Krampus Helmet",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Red Gift", "Drop_Amount": 1, "Drop_Chance": 0.0045}
+      ],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Lesser Soulflow Engine",
+      "Upgrade_Effects": 1.5,
+      "Generated_Item": [
+        {"Name": "Soulflow", "Drop_Amount": 1, "Drop_Chance": 1}
+      ],
+      "Cooldown": 180
+    },
+    {
+      "Name": "Soulflow Engine",
+      "Upgrade_Effects": 1.5,
+      "Generated_Item": [
+        {"Name": "Soulflow", "Drop_Amount": 1, "Drop_Chance": 1}
+      ],
+      "Cooldown": 90
+    },
+    {
+      "Name": "Corrupt Soil",
+      "Corrupt Soil": {
+        "Upgrade_Effects": 0,
+        "Generated_Item": [
+          {"Name": "Corrupted Fragment", "Drop_Amount": 1, "Drop_Chance": 1},
+          {"Name": "Sulfur",             "Drop_Amount": 1, "Drop_Chance": 1}
+        ],
+        "Cooldown": 0
+      }
+    },
+    {
+      "Name": "Enchanted Shears",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [],
+      "Cooldown": 0
+    },
+    {
+      "Name": "Berberis Fuel Injector",
+      "Upgrade_Effects": 0.15,
+      "Generated_Item": [
+        {"Name": "Lush Berberis", "Drop_Amount": 1, "Drop_Chance": 1}
+      ],
+      "Cooldown": 300
+    },
+    {
+      "Name": "Sleepy Hollow",
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Purple Candy", "Drop_Amount": 1, "Drop_Chance": 0.015}
+      ],
+      "Cooldown": 0
+    }
+  ]
+}
