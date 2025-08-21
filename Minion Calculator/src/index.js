@@ -36,8 +36,9 @@ function CreateStatCell(row, index)
 
 function test()
 {
-  //test function for commits
-  
+  fetch("./Skyblock Minions.json")
+  .then(res => res.json())
+  .then(data => console.log(data))
 }
 
 function UpdateSelectedMinionStats(RowIndex)
