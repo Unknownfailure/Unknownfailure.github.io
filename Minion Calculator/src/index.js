@@ -1,4 +1,6 @@
 var minionsJSON;
+loadMinions();
+
 
 function TableCreateRow() {
   CreateInputTableRow();
@@ -34,11 +36,11 @@ function CreateStatCell(row, index)
   return cell;
 }
 
-function test()
-{
-  fetch("Minions.json")
-  .then(res => res.json())
-  .then(data => console.log(data))
+async function loadMinions() {
+  const res = await fetch("Minions.json");
+  const data = await res.json();
+  minionsJSON = data.Minions; // store into the global variable
+  console.log("Loaded:", minionsJSON);
 }
 
 function UpdateSelectedMinionStats(RowIndex)
