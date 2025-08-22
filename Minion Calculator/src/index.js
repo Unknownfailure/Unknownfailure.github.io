@@ -39,14 +39,14 @@ function CreateStatCell(row, index)
 }
 
 async function loadMinions() {
-  const res = await fetch("Minions.json");
+  const res = await fetch("json/Minions.json");
   const data = await res.json();
   minionsJSON = data; // store into the global variable
   console.log("Loaded:", minionsJSON);
 }
 
 async function loadMaterials() {
-  const res = await fetch("Materials.json");
+  const res = await fetch("json/Materials.json");
   const data = await res.json();
   materialsJSON = data; // store into the global variable
   console.log("Loaded:", materialsJSON);
