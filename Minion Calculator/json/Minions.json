@@ -720,14 +720,12 @@
     },
     {
       "Name": "Corrupt Soil",
-      "Corrupt Soil": {
-        "Upgrade_Effects": 0,
-        "Generated_Item": [
-          {"Name": "Corrupted Fragment", "Drop_Amount": 1, "Drop_Chance": 1},
-          {"Name": "Sulfur",             "Drop_Amount": 1, "Drop_Chance": 1}
-        ],
-        "Cooldown": 0
-      }
+      "Upgrade_Effects": 0,
+      "Generated_Item": [
+        {"Name": "Corrupted Fragment", "Drop_Amount": 1, "Drop_Chance": 1},
+        {"Name": "Sulfur",             "Drop_Amount": 1, "Drop_Chance": 1}
+      ],
+      "Cooldown": 0
     },
     {
       "Name": "Enchanted Shears",

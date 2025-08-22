@@ -1,4 +1,5 @@
 var minionsJSON;
+var materialsJSON;
 loadMinions();
 
 
@@ -41,6 +42,13 @@ async function loadMinions() {
   const data = await res.json();
   minionsJSON = data; // store into the global variable
   console.log("Loaded:", minionsJSON);
+}
+
+async function loadMinions() {
+  const res = await fetch("Materials.json");
+  const data = await res.json();
+  materialsJSON = data; // store into the global variable
+  console.log("Loaded:", materialsJSON);
 }
 
 function UpdateSelectedMinionStats(RowIndex)
