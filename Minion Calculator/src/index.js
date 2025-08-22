@@ -1,6 +1,7 @@
 var minionsJSON;
 var materialsJSON;
 loadMinions();
+loadMaterials();
 
 
 function TableCreateRow() {
@@ -44,7 +45,7 @@ async function loadMinions() {
   console.log("Loaded:", minionsJSON);
 }
 
-async function loadMinions() {
+async function loadMaterials() {
   const res = await fetch("Materials.json");
   const data = await res.json();
   materialsJSON = data; // store into the global variable
