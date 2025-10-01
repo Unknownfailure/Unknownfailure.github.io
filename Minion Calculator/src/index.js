@@ -3,7 +3,6 @@ var materialsJSON;
 loadMinions();
 loadMaterials();
 
-
 function TableCreateRow() {
   CreateInputTableRow();
   CreateStatsTableRow();
@@ -13,18 +12,6 @@ function TableDeleteRow() {
   DeleteInputTableRow();
   DeleteStatsTableRow();
 }
-
-// document.getElementById("fileInput").addEventListener("change", function(event) {
-//   const file = event.target.files[0];
-//   if (!file) return;
-
-//   const reader = new FileReader();
-//   reader.onload = function(e)
-//   { 
-//     minionsJSON = JSON.parse(reader.result);
-//   };
-//   reader.readAsText(file);
-// });
 
 function CreateStatCell(row, index)
 {

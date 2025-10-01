@@ -1,4 +1,4 @@
-var rowTable = document.getElementById("minionInputTable");
+var rowTable = document.getElementById("minionInput");
 
 function CreateInputTableRow()
 {
