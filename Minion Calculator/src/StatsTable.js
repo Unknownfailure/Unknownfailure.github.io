@@ -1,4 +1,4 @@
-var statsTable = document.getElementById("minionStatsTable");
+var statsTable = document.getElementById("minionOutput");
 
 function CreateStatsTableRow()
 {
