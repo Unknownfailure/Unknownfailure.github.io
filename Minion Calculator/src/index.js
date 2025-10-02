@@ -41,35 +41,35 @@ async function loadMaterials() {
 
 function UpdateSelectedMinionStats(RowIndex)
 {
-  document.getElementById("MinionTextCell" + RowIndex).innerHTML = GetMinionNameTier(document.getElementById("MinionSelectCell" + RowIndex).value,
-                                                                                       document.getElementById("TierNumberCell" + RowIndex).value);
+  document.getElementById("minion-output-table-Minion-" + RowIndex).innerHTML = GetMinionNameTier(document.getElementById("minion-input-table-Minion-" + RowIndex).value,
+                                                                                       document.getElementById("minion-input-table-Tier-" + RowIndex).value);
   var speed = GetMinionSpeedTotal(RowIndex);
   var generatedResourcesArr = GetGeneratedItems(RowIndex);
   var generatedResourcesText = GetItemName(generatedResourcesArr).join("<br>");
   var itemHourArr = CalculateItemHour(generatedResourcesArr, speed);
   var itemHourText = itemHourArr.join("<br>"); 
-  document.getElementById("SpeedTextCell" + RowIndex).innerHTML = speed.toFixed(2);
-  document.getElementById("APMTextCell" + RowIndex).innerHTML = (60 / speed).toFixed(2);
-  document.getElementById("GeneratedResourceTextCell" + RowIndex).innerHTML = generatedResourcesText;
-  document.getElementById("ItemsHourTextCell" + RowIndex).innerHTML = itemHourText;
+  document.getElementById("minion-output-table-Speed-" + RowIndex).innerHTML = speed.toFixed(2);
+  document.getElementById("minion-output-table-APM-" + RowIndex).innerHTML = (60 / speed).toFixed(2);
+  document.getElementById("minion-output-table-Resource-" + RowIndex).innerHTML = generatedResourcesText;
+  document.getElementById("minion-output-table-ItemHour-" + RowIndex).innerHTML = itemHourText;
 }
 
 function GetMinionSpeedTotal(RowIndex)
 {
-  var minionName = document.getElementById("MinionSelectCell" + RowIndex).value;
-  var minionTier = document.getElementById("TierNumberCell" + RowIndex).value;
+  var minionName = document.getElementById("minion-input-table-Minion-" + RowIndex).value;
+  var minionTier = document.getElementById("minion-input-table-Tier-" + RowIndex).value;
   var minion = minionsJSON.Minions.find(item => item.Name == minionName);
   var baseSpeed = minion.Minion_Speed[minionTier - 1];
 
-  var fuelName = document.getElementById("FuelSelectCell" + RowIndex).value;
+  var fuelName = document.getElementById("minion-input-table-Fuel-" + RowIndex).value;
   var fuel = minionsJSON.Fuels.find(item => item.Name == fuelName);
   var fuelSpeed = fuel.Fuel_Effects;
 
-  var upgrade1Name = document.getElementById("UpgradeSelectCell1" + RowIndex).value;
+  var upgrade1Name = document.getElementById("minion-input-table-Upgrade-1-" + RowIndex).value;
   var upgrade1 = minionsJSON.Upgrades.find(item => item.Name == upgrade1Name);
   var upgrade1Speed = upgrade1.Upgrade_Effects;
 
-  var upgrade2Name = document.getElementById("UpgradeSelectCell2" + RowIndex).value;
+  var upgrade2Name = document.getElementById("minion-input-table-Upgrade-2-" + RowIndex).value;
   var upgrade2 = minionsJSON.Upgrades.find(item => item.Name == upgrade2Name);
   var upgrade2Speed = upgrade2.Upgrade_Effects;
 
@@ -88,15 +88,15 @@ function GetMinionNameTier(MinionFullName, MinionTier)
 function GetGeneratedItems(RowIndex)
 {
   var allItems = [];
-  var minionName = document.getElementById("MinionSelectCell" + RowIndex).value;
+  var minionName = document.getElementById("minion-input-table-Minion-" + RowIndex).value;
   var minion = minionsJSON.Minions.find(item => item.Name == minionName);
   allItems.push(GetGeneratedItem(minion));
 
-  var upgrade1Name = document.getElementById("UpgradeSelectCell1" + RowIndex).value;
+  var upgrade1Name = document.getElementById("minion-input-table-Upgrade-1-" + RowIndex).value;
   var upgrade1 = minionsJSON.Upgrades.find(item => item.Name == upgrade1Name);
   allItems.push(GetGeneratedItem(upgrade1));
 
-  var upgrade2Name = document.getElementById("UpgradeSelectCell2" + RowIndex).value;
+  var upgrade2Name = document.getElementById("minion-input-table-Upgrade-2-" + RowIndex).value;
   var upgrade2 = minionsJSON.Upgrades.find(item => item.Name == upgrade2Name);
   allItems.push(GetGeneratedItem(upgrade2));
 
