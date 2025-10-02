@@ -5,7 +5,7 @@ function CreateInputTableRow()
     var row = rowTable.insertRow();
     row.id = "InputTableRow" + (row.rowIndex - 1);
     
-    InputTableCreateRow(row);
+    //InputTableCreateRow(row);
 }
 
 function DeleteInputTableRow()
