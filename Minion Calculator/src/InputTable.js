@@ -1,9 +1,9 @@
-var rowTable = document.getElementById("minionInput");
+var rowTable = document.getElementById("minion-input-table");
 
 function CreateInputTableRow()
 {
     var row = rowTable.insertRow();
-    row.id = "InputTableRow" + (row.rowIndex - 1);
+    row.id = "minion-input-table-" + (row.rowIndex - 1);
     
     InputTableCreateRow(row);
 }
@@ -16,7 +16,7 @@ function DeleteInputTableRow()
 function InputTableCreateRow(row)
 {
   var rowIndex = row.rowIndex - 2;
-  console.log("input: " + rowIndex);
+  //console.log("input: " + rowIndex);
   CreateMinionSelectCell(row, rowIndex, 0);
   CreateTierNumberCell(row, rowIndex, 1);
   CreateCountNumberCell(row, rowIndex, 2);
@@ -29,8 +29,8 @@ function CreateMinionSelectCell(Row, RowIndex, CellIndex)
 {
     var cell = Row.insertCell(CellIndex);
     var element = document.createElement("select");
-    element.className = "InputTableRow" + RowIndex; 
-    element.id = "MinionSelectCell" + RowIndex;
+    element.className = "minion-input-table-" + RowIndex;
+    element.id = "minion-input-table-Minion-" + RowIndex;
     element.onchange = function() { UpdateSelectedMinionStats(RowIndex);};
     cell.innerHTML = ""; // clear old options
     cell.appendChild(element);
@@ -47,8 +47,8 @@ function CreateCountNumberCell(Row, RowIndex, CellIndex)
 {
     var cell = Row.insertCell(CellIndex);
     var element = document.createElement("input");
-    element.className = "InputTableRow" + RowIndex; 
-    element.id = "CountNumberCell" + RowIndex;
+    element.className = "minion-input-table-" + RowIndex; 
+    element.id = "minion-input-table-Count-" + RowIndex;
     element.type = "number";
     element.value = 1;
     element.min = 0;
@@ -60,8 +60,8 @@ function CreateTierNumberCell(Row, RowIndex, CellIndex)
 {
     var cell = Row.insertCell(CellIndex);
     var element = document.createElement("input");
-    element.className = "InputTableRow" + RowIndex; 
-    element.id = "TierNumberCell" + RowIndex;
+    element.className = "minion-input-table-" + RowIndex; 
+    element.id = "minion-input-table-Tier-" + RowIndex;
     element.type = "number";
     element.max = 12;
     element.min = 1;
@@ -74,8 +74,8 @@ function CreateFuelSelectCell(Row, RowIndex, CellIndex)
 {
     var cell = Row.insertCell(CellIndex);
     var element = document.createElement("select");
-    element.className = "InputTableRow" + RowIndex;
-    element.id = "FuelSelectCell" + RowIndex;
+    element.className = "minion-input-table-" + RowIndex;
+    element.id = "minion-input-table-Fuel-" + RowIndex;
     cell.innerHTML = ""; // clear old options
     element.onchange = function() { UpdateSelectedMinionStats(RowIndex);};
     cell.appendChild(element);
@@ -92,8 +92,8 @@ function CreateUpgradeSelectCell(Row, RowIndex, CellIndex, UpgradeIndex)
 {
     var cell = Row.insertCell(CellIndex);
     var element = document.createElement("select");
-    element.className = "InputTableRow" + RowIndex;
-    element.id = "UpgradeSelectCell" + UpgradeIndex + RowIndex;
+    element.className = "minion-input-table-" + RowIndex;
+    element.id = "minion-input-table-Upgrade-" + UpgradeIndex + "-"+ RowIndex;
     cell.innerHTML = ""; // clear old options
     element.onchange = function() { UpdateSelectedMinionStats(RowIndex);};
     cell.appendChild(element);
