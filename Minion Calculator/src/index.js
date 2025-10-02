@@ -1,7 +1,7 @@
 var minionsJSON;
 var materialsJSON;
-loadMinions();
-loadMaterials();
+//loadMinions();
+//loadMaterials();
 
 function TableCreateRow() {
   CreateInputTableRow();
