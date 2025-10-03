@@ -39,10 +39,13 @@ function UpdateSelectedMinionStats(RowIndex)
   var generatedResourcesText = GetItemName(generatedResourcesArr).join("<br>");
   var itemHourArr = CalculateItemHour(generatedResourcesArr, speed);
   var itemHourText = itemHourArr.join("<br>"); 
+  var xpHourArr = CalculateXPHour(generatedResourcesArr, speed);
+  var xpHourText = xpHourArr.join("<br>"); 
   document.getElementById("minion-output-table-Speed-" + RowIndex).innerHTML = speed.toFixed(2);
   document.getElementById("minion-output-table-APM-" + RowIndex).innerHTML = (60 / speed).toFixed(2);
   document.getElementById("minion-output-table-Resource-" + RowIndex).innerHTML = generatedResourcesText;
   document.getElementById("minion-output-table-ItemHour-" + RowIndex).innerHTML = itemHourText;
+  document.getElementById("minion-output-table-XPHour-" + RowIndex).innerHTML = xpHourText;
 }
 
 function GetMinionSpeedTotal(RowIndex)
@@ -104,6 +107,21 @@ function CalculateItemHour(ItemsJSON, MinionSpeed)
       var itemDropAvg = element[i].Drop_Amount * element[i].Drop_Chance;
       var hourDrop = (3600 / (MinionSpeed * 2)) * itemDropAvg;
       itemAmt.push(hourDrop.toFixed(2));
+    }
+  });
+  return itemAmt;
+}
+
+function CalculateXPHour(ItemsJSON, MinionSpeed)
+{
+  var itemAmt = [];
+  ItemsJSON.forEach((element) => 
+  {
+    for (var i = 0; i < element.length;i++)
+    {
+      var itemDropAvg = element[i].Drop_Amount * element[i].Drop_Chance;
+      var hourDrop = (3600 / (MinionSpeed * 2)) * itemDropAvg;
+      itemAmt.push(hourDrop.toFixed(2) * element[i].Exp_Amount);
     }
   });
   return itemAmt;
