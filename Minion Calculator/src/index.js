@@ -121,7 +121,8 @@ function CalculateXPHour(ItemsJSON, MinionSpeed)
     {
       var itemDropAvg = element[i].Drop_Amount * element[i].Drop_Chance;
       var hourDrop = (3600 / (MinionSpeed * 2)) * itemDropAvg;
-      itemAmt.push(hourDrop.toFixed(2) * element[i].Exp_Amount);
+      console.log(element[i].Exp_Amount);
+      itemAmt.push(hourDrop * element[i].Exp_Amount);
     }
   });
   return itemAmt;
