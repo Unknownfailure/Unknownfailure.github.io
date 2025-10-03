@@ -1,7 +1,12 @@
 var minionsJSON;
 var materialsJSON;
-loadMinions();
-loadMaterials();
+LoadJSON();
+
+function LoadJSON()
+{
+  loadMinions();
+  loadMaterials();
+}
 
 function TableCreateRow() {
   CreateInputTableRow();
@@ -23,20 +28,6 @@ function CreateStatCell(row, index)
   cell.appendChild(exactMinion);
 
   return cell;
-}
-
-async function loadMinions() {
-  const res = await fetch("json/Minions.json");
-  const data = await res.json();
-  minionsJSON = data; // store into the global variable
-  console.log("Loaded:", minionsJSON);
-}
-
-async function loadMaterials() {
-  const res = await fetch("json/Materials.json");
-  const data = await res.json();
-  materialsJSON = data; // store into the global variable
-  console.log("Loaded:", materialsJSON);
 }
 
 function UpdateSelectedMinionStats(RowIndex)
@@ -134,4 +125,18 @@ function GetItemName(ItemsJSON)
     }
   });
   return itemNames;
+}
+
+async function loadMinions() {
+  const res = await fetch("json/Minions.json");
+  const data = await res.json();
+  minionsJSON = data; // store into the global variable
+  console.log("Loaded:", minionsJSON);
+}
+
+async function loadMaterials() {
+  const res = await fetch("json/Materials.json");
+  const data = await res.json();
+  materialsJSON = data; // store into the global variable
+  console.log("Loaded:", materialsJSON);
 }

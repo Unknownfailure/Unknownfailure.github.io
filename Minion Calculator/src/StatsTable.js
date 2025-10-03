@@ -21,6 +21,8 @@ function StatsTableCreateRow(row)
     CreateAPMTextCell(row, rowIndex, 2);
     CreateGeneratedResourceTextCell(row, rowIndex, 3);
     CreateItemsHourTextCell(row, rowIndex, 4);
+    CreateXPHourTextCell(row, rowIndex, 5);
+    CreateCoinHourTextCell(row, rowIndex, 6);
 }
 
 function CreateMinionTextCell(Row, RowIndex, CellIndex)
@@ -71,6 +73,26 @@ function CreateItemsHourTextCell(Row, RowIndex, CellIndex)
     var element = document.createElement("p");
     element.className = "minion-output-table-" + RowIndex; 
     element.id = "minion-output-table-ItemHour-" + RowIndex;
+    element.textContent = 999;
+    cell.appendChild(element);
+}
+
+function CreateXPHourTextCell(Row, RowIndex, CellIndex)
+{
+    var cell = Row.insertCell(CellIndex);
+    var element = document.createElement("p");
+    element.className = "minion-output-table-" + RowIndex; 
+    element.id = "minion-output-table-XPHour-" + RowIndex;
+    element.textContent = 999;
+    cell.appendChild(element);
+}
+
+function CreateCoinHourTextCell(Row, RowIndex, CellIndex)
+{
+    var cell = Row.insertCell(CellIndex);
+    var element = document.createElement("p");
+    element.className = "minion-output-table-" + RowIndex; 
+    element.id = "minion-output-table-CoinHour-" + RowIndex;
     element.textContent = 999;
     cell.appendChild(element);
 }
